@@ -8,3 +8,4 @@ from OpenOrchestrator.database.queues import QueueElement
 def process(orchestrator_connection: OrchestratorConnection, queue_element: QueueElement | None = None) -> None:
     """Do the primary process of the robot."""
     orchestrator_connection.log_trace("Running process.")
+#jeg prøver at ændre noget for at uploade
